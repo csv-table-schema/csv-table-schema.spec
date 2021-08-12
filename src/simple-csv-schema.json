@@ -44,7 +44,7 @@
             "unordered",
             "headless"
           ],
-          "description": "Supported table types: `ordered`(columns must appear in defined order), `unordered` (columns can appear in any order) and `headless` (no header row present)"
+          "description": "Supported table types: `ordered` (columns must appear in defined order), `unordered` (columns can appear in any order) and `headless` (no header row present)"
         },
         "delimiterChar": {
           "type": "string",
@@ -562,7 +562,7 @@
                 }
               },
               {
-                "description": "This is a json formated string type column.",
+                "description": "This is a json formatted string type column.",
                 "required": [
                   "name",
                   "type",
@@ -613,7 +613,7 @@
                 }
               },
               {
-                "description": "This is a xml formated string type column.",
+                "description": "This is a xml formatted string type column.",
                 "required": [
                   "name",
                   "type",
