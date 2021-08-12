@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "title": "Simple CSV Schema for subjects",
+  "description": "A sample CSV Schema for subjects",
+  "table": {
+    "name": "Subjects.csv",
+    "type": "unordered",
+    "columns": [
+      {
+        "name": "Id",
+        "description": "Unique id",
+        "type": "string",
+        "format": "uuid"
+      },
+      {
+        "name": "ShortName",
+        "description": "Short name of subject",
+        "type": "string"
+      },
+      {
+        "name": "LongName",
+        "description": "Long name of subject",
+        "type": "string"
+      }
+    ]
+  }
+}

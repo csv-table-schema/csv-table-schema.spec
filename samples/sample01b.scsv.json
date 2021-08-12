@@ -1,0 +1,44 @@
+{
+  "version": "0.1",
+  "title": "Simple CSV Schema for courses",
+  "description": "A sample CSV Schema for courses",
+  "table": {
+    "name": "Courses.csv",
+    "type": "unordered",
+    "columns": [
+      {
+        "name": "Id",
+        "description": "Unique id",
+        "type": "string",
+        "format": "uuid"
+      },
+      {
+        "name": "Title",
+        "description": "Course title",
+        "type": "string"
+      },
+      {
+        "name": "StartDate",
+        "description": "Start date of the course",
+        "type": "date-time",
+        "formats": [
+          "yyyy-MM-dd"
+        ]
+      },
+      {
+        "name": "EndDate",
+        "description": "End date of the course",
+        "type": "date-time",
+        "formats": [
+          "yyyy-MM-dd"
+        ]
+      },
+      {
+        "name": "SubjectId",
+        "description": "Reference to subject (see sample02c.csv-schema.json)",
+        "type": "string",
+        "format": "uuid"
+      }
+    ]
+  }
+}

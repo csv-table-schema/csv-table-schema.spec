@@ -1,0 +1,68 @@
+{
+  "version": "0.1",
+  "title": "Simple CSV Schema for students",
+  "description": "A sample CSV Schema for students",
+  "table": {
+    "name": "Students.csv",
+    "type": "unordered",
+    "columns": [
+      {
+        "name": "Id",
+        "description": "Unique id",
+        "type": "string",
+        "format": "uuid"
+      },
+      {
+        "name": "LastName",
+        "description": "Last name of the student",
+        "type": "string"
+      },
+      {
+        "name": "FirstName",
+        "description": "First name of the student",
+        "type": "string"
+      },
+      {
+        "name": "Gender",
+        "description": "Gender of the student",
+        "type": "enum",
+        "members": [
+          {
+            "value": "M",
+            "description": "Male"
+          },
+          {
+            "value": "F",
+            "description": "Female"
+          },
+          {
+            "value": "D",
+            "description": "Diverse"
+          }
+        ],
+        "optional": true,
+        "nullable": true
+      },
+      {
+        "name": "Birthdate",
+        "description": "Birthdate of the student",
+        "type": "date",
+        "formats": [
+          "yyyy-MM-dd"
+        ],
+        "optional": true,
+        "nullable": true
+      },
+      {
+        "name": "CourseList",
+        "description": "Array of course (see sample01b.scsv.json) references ",
+          "type": "json",
+          "schema": {
+            "uri": "json-id-array.json"
+          },
+          "optional": true,
+          "nullable": true
+      }
+    ]
+  }
+}
