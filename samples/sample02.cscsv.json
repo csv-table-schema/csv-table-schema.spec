@@ -1,0 +1,31 @@
+{
+  "version": "0.1",
+  "title": "Simple CSV Schema for configuration",
+  "description": "A sample CSV Schema for configuration data",
+  "dictionary": {
+    "name": "Configuration.csv",
+    "keys": [
+      {
+        "name": "TimeZone",
+        "description": "Time Zone according to http://web.cs.ucla.edu/~eggert/tz/tz-link.htm",
+        "type": "string"
+      },
+      {
+        "name": "ValidFrom",
+        "description": "Start date of validity",
+        "type": "date",
+        "formats": [
+          "yyyy-MM-dd"
+        ]
+      },
+      {
+        "name": "ValidTo",
+        "description": "End date of validity",
+        "type": "date",
+        "formats": [
+          "yyyy-MM-dd"
+        ]
+      }
+    ]
+  }
+}

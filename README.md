@@ -8,7 +8,8 @@ Main features:
 + Dedicated to the CSV format.
 + Supports the following data types: string, enum, enum-set, bool, int, float, date, time, date-time, json and xml.
 + Supports CSV tables with ordered and unordered columns.
-+ Supports CSV tables with or without header line.
++ Supports CSV tables with or without header row.
++ Supports CSV dictionaries with key/value rows.
 
 ## Documentation
 
