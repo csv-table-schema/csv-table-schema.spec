@@ -18,7 +18,3 @@ See: https://simple-csv-schema.github.io/
 ## Can I help?
 
 Yes, that would be much appreciated. Simple CSV Schema is currently a draft. We are open for any feedback! Use the Issue Tracker for asking and/or submitting a Pull Request.
-
-## Code of Conduct
-
-The [STÜBER SYSTEMS Code of Conduct](https://www.stueber.co.uk/code-of-conduct.php) was adopted in this project.
