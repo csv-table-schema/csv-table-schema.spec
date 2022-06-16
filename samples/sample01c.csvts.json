@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "title": "Simple CSV Schema for subjects",
-  "description": "A sample CSV Schema for subjects",
+  "title": "CSV Table Schema for subjects",
+  "description": "A CSV Table Schema for subjects",
   "table": {
     "name": "Subjects.csv",
     "type": "unordered",

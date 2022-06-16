@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "title": "Simple CSV Schema for configuration",
-  "description": "A sample CSV Schema for configuration data",
+  "title": "CSV Table Schema for configuration",
+  "description": "A sample CSV Table Schema for configuration data",
   "dictionary": {
     "name": "Configuration.csv",
     "keys": [

@@ -1,7 +1,7 @@
 {
   "version": "0.1",
-  "title": "Simple CSV Schema for students",
-  "description": "A sample CSV Schema for students",
+  "title": "CSV Table Schema for students",
+  "description": "A sample CSV Table Schema for students",
   "table": {
     "name": "Students.csv",
     "type": "unordered",

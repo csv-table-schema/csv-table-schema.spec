@@ -1,9 +1,9 @@
-{
-  "$id": "https://github.com/simple-csv-schema/simple-csv-schema.spec/blob/main/src/simple-csv-schema.json",
+﻿{
+  "$id": "https://github.com/csv-table-schema/csv-table-schema.spec/blob/main/src/csv-table-schema.json",
   "$schema": "http://json-schema.org/draft-07/schema",
   "$comment": "v-0.0.2",
-  "title": "JSON CSV Schema Specification",
-  "description": "CSV Schema Specification based on JSON Schema",
+  "title": "JSON CSV Table Schema Specification",
+  "description": "CSV Table Schema Specification based on JSON Schema",
   "type": "object",
   "required": [
     "title"
